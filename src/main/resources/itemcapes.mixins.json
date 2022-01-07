@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "com.github.kay9.itemcapes.mixins",
+  "mixins": [
+  ],
+  "client": [
+    "client.AbstractClientPlayerEntityMixin"
+  ]
+}

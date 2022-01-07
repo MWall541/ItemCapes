@@ -1,0 +1,37 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+# A list of mods - how many allowed here is determined by the individual mod loader
+[[mods]] #mandatory
+modId="itemcapes" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Item Capes" #mandatory
+#logoFile="examplemod.png" #optional
+credits="developed for WalterTheMighty" #optional
+# A text field displayed in the mod UI
+authors="Kay9" #optional
+description='''
+A Simple mod that displays a cape, with a texture defined in a path, on the player should they have the required item
+equipped. Curios support :)
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.itemcapes]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[36,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+# Here's another dependency
+[[dependencies.itemcapes]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.itemcapes]]
+modId="curios"
+mandatory=true
+versionRange="[1.16.5-4.0.5.3,)"
+ordering="NONE"
+side="BOTH"
+
