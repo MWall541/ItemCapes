@@ -12,7 +12,7 @@ credits="developed for WalterTheMighty" #optional
 authors="Kay9" #optional
 description='''
 A Simple mod that displays a cape, with a texture defined in a path, on the player should they have the required item
-equipped. Curios support :)
+equipped. Curios required. :)
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.itemcapes]] #optional
